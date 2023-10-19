@@ -1,0 +1,39 @@
+.slider__item {
+    max-width: 100%;
+    height: 650px;
+  }
+  
+  .slider__item-001 {
+    background: 
+      url("../assets/all-images/carcompany.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  @media only screen and (max-width: 992px) {
+    .slider__item {
+      height: 530px;
+      max-width: 100vw;
+    }
+  
+    .slider__content {
+      margin-top: -50px;
+    }
+  
+    .slider__content h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .slider__item {
+      height: 450px;
+    }
+  
+    .slider__content h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
